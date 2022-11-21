@@ -9,14 +9,22 @@ const Main = () => (
 
     <div className="main-div">
         <div className="topdiv">
-             <p>Top part</p>
+             {/* <p>Top part</p> */}
+             <form action="/" className="innerform">
+                <select name="countries" id="countries">
+                    <option value="Kenya">Kenya</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select>
+                </form>
              <BsPersonCircle className="abcde" />
         </div>
-        <div>
-        <input type="text" placeholder="Search.."></input>
+        <div className="searchdiv">
+        <input type="text" placeholder="Search tutor" className="searchinput"></input>
         </div>
         <div>
-            <h3>Online Tutors</h3>
+            <h3 className="tutort">Online Tutors</h3>
             <div className="grid-container">
                 <div className="details">
                     <div className="detailsA">
