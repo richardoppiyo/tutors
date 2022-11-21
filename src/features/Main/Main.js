@@ -38,8 +38,8 @@ const Main = () => (
                         <div className="detailsATop">
                             <BsPersonCircle className="mypic" /> 
                             <div>
-                                <p>Name Here</p>
-                                <p>Country Here</p>
+                                <p>John Doe</p>
+                                <p><strong>Bangalore, India</strong></p>
                             </div>  
                         </div>
                     <GoPrimitiveDot className="dot"/>
@@ -64,8 +64,8 @@ const Main = () => (
                         <div className="detailsATop">
                             <BsPersonCircle className="mypic" /> 
                             <div>
-                                <p>Name Here</p>
-                                <p>Country Here</p>
+                            <p>James Bond</p>
+                            <p><strong>Delhi, India</strong></p>
                             </div>  
                         </div>
                     <GoPrimitiveDot className="dot"/>
@@ -89,8 +89,8 @@ const Main = () => (
                         <div className="detailsATop">
                             <BsPersonCircle className="mypic" /> 
                             <div>
-                                <p>Name Here</p>
-                                <p>Country Here</p>
+                            <p>Mike Furr</p>
+                            <p><strong>Inidanapolis, US</strong></p>
                             </div>  
                         </div>
                         <GoPrimitiveDot className="dot"/>
@@ -114,8 +114,8 @@ const Main = () => (
                         <div className="detailsATop">
                             <BsPersonCircle className="mypic" /> 
                             <div>
-                                <p>Name Here</p>
-                                <p>Country Here</p>
+                                <p>Jane Doe</p>
+                                <p><strong>Nairobi, Kenya</strong></p>
                             </div>  
                         </div>
                         <GoPrimitiveDot className="dot"/>
