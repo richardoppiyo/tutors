@@ -1,5 +1,19 @@
 import React from "react";
 import './Sidebar.css';
+import logo from '../Sidebar/microverseimg.png'; 
+import { GiTeacher
+} from 'react-icons/gi';
+import { FaChalkboardTeacher
+} from 'react-icons/fa';
+import { MdOutlinePlayLesson
+} from 'react-icons/md';
+import { FcStatistics
+} from 'react-icons/fc';
+import { BsCartCheckFill
+} from 'react-icons/bs';
+
+
+
 // import {
 //      NavLink
 //   } from 'react-router-dom';
@@ -8,13 +22,13 @@ import './Sidebar.css';
   
 const Sidebar = () => (
     <div className="sidebar-div">
-        <h1>This is the Sidebar</h1>
-        <div>
-            <h3>Tutors</h3>
-            <h3>Explore Languages</h3>
-            <h3>My Lessons</h3>
-            <h3>Statistics</h3>
-            <h3>Shopping Cart</h3>
+        <img src={logo} className="logo" alt="logo" width="400" height="700"></img>
+        <div className="sidebarcollection">
+            <h3 className="sidetitle"> <GiTeacher />  Tutors</h3>
+            <h3 className="sidetitle"><FaChalkboardTeacher />   Explore Languages</h3>
+            <h3 className="sidetitle"><MdOutlinePlayLesson/>   My Lessons</h3>
+            <h3 className="sidetitle"><FcStatistics/>  Statistics</h3>
+            <h3 className="sidetitle"><BsCartCheckFill/> Shopping Cart</h3>
         </div>
     </div>
 

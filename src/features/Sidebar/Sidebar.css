@@ -1,6 +1,24 @@
 .sidebar-div {
-    background-color:blue;
+    /* background-color:blue; */
     min-width: 20%;
     border-right: 2px solid black;
     height: 100vh;
+}
+
+.sidetitle {
+    font-size: x-large;
+    font-weight: 900;
+    padding: 2px 0 2px 40px;
+}
+
+.sidebarcollection {
+    padding-top: 150px;
+    /* padding-left: 20px;; */
+}
+
+.logo {
+    height: 120px;
+    width: 45%;
+    padding-top: 50px;
+    padding-left: 65px;
 }

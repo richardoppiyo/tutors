@@ -3,6 +3,13 @@ import { BsPersonCircle } from 'react-icons/bs';
 import './Main.css';
 import { AiFillStar, AiOutlineStar,
   } from 'react-icons/ai';
+  import { GoPrimitiveDot
+  } from 'react-icons/go';
+//   import { BsSearch
+//   } from 'react-icons/bs';
+  import './Main.css';
+  
+  
 
 
 const Main = () => (
@@ -35,7 +42,7 @@ const Main = () => (
                                 <p>Country Here</p>
                             </div>  
                         </div>
-                    <p>dot</p>
+                    <GoPrimitiveDot className="dot"/>
                     </div>
                     <div className="detailsB">
                         <p className="detailsBp">1000+ Teachings</p>
@@ -61,7 +68,7 @@ const Main = () => (
                                 <p>Country Here</p>
                             </div>  
                         </div>
-                    <p>dot</p>
+                    <GoPrimitiveDot className="dot"/>
                     </div>
                     <div className="detailsB">
                         <p className="detailsBp">1000+ Teachings</p>
@@ -86,7 +93,32 @@ const Main = () => (
                                 <p>Country Here</p>
                             </div>  
                         </div>
-                    <p>dot</p>
+                        <GoPrimitiveDot className="dot"/>
+                    </div>
+                    <div className="detailsB">
+                        <p className="detailsBp">1000+ Teachings</p>
+                    </div>
+                    <div className="detailsC">
+                        <p className="detailsCp">Call Now</p>
+                        <div className="starbox">
+                            <AiFillStar className="stars" />
+                            <AiFillStar className="stars" />
+                            <AiFillStar className="stars" />
+                            <AiFillStar className="stars" />
+                            <AiOutlineStar className="stars" />
+                        </div>
+                    </div>
+                </div>
+                <div className="details">
+                    <div className="detailsA">
+                        <div className="detailsATop">
+                            <BsPersonCircle className="mypic" /> 
+                            <div>
+                                <p>Name Here</p>
+                                <p>Country Here</p>
+                            </div>  
+                        </div>
+                        <GoPrimitiveDot className="dot"/>
                     </div>
                     <div className="detailsB">
                         <p className="detailsBp">1000+ Teachings</p>

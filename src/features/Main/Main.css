@@ -1,5 +1,5 @@
 .main-div {
-    background-color: azure;
+    /* background-color: azure; */
     min-width: 80%;
 }
 .topdiv {
@@ -37,8 +37,7 @@
 
 .details {
     border: 1px solid black;
-    border-radius: 2px;
-    /* width: 550px; */
+    border-radius: 10px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -53,7 +52,12 @@
 .detailsATop {
     display: flex;
     align-items: center;
+}
 
+.dot {
+    color: greenyellow;
+    height: 40px;
+    width: 40px;
 }
 
 .mypic {
